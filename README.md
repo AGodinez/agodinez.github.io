@@ -10,6 +10,11 @@ Sitio en construccion...
 * [Semantic UI](http://semantic-ui.com/)
 * [JQuery](http://jquery.com/)
 
+## Fuente e Iconos ##
+* [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
+* [Economica](https://www.google.com/fonts/specimen/Economica)
+* [Rambla](https://www.google.com/fonts/specimen/Rambla)
+
 ## Desarrollado por ##
 * Andrés Godínez
 
