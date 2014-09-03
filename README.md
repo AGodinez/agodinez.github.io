@@ -19,6 +19,6 @@ Sitio en construccion...
 * Andrés Godínez
 
 ## Licencia ##
-[https://i.creativecommons.org/l/by/4.0/88x31.png](http://creativecommons.org/licenses/by/4.0/)
+![[CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 Este obra está bajo una licencia de Creative Commons Reconocimiento 4.0
