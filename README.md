@@ -2,11 +2,9 @@ agodinez.github.io
 =================
 Sitio en construccion...
 
-## Lenguajes ##
+## Tecnologías ##
 * HTML5/CSS3
 * JavaScript
-
-## Librerias y Frameworks ##
 * [Semantic UI](http://semantic-ui.com/)
 * [JQuery](http://jquery.com/)
 
@@ -15,7 +13,7 @@ Sitio en construccion...
 * [Economica](https://www.google.com/fonts/specimen/Economica)
 * [Rambla](https://www.google.com/fonts/specimen/Rambla)
 
-## Desarrollado por ##
+## Desarrollador ##
 * Andrés Godínez
 
 ## Licencia ##
