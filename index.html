@@ -5,8 +5,8 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-  <meta name="description" content="Mi nombre es Andrés Godínez, soy estudiante de la carrera Ingeniería de Sistemas Informáticos en la Universidad de El Salvador FMOcc, usuario de GNU/Linux y.. bueno de Windows también (para jugar xD)">
+  
+  <meta name="description" content="Mi nombre es Andrés Godínez, soy estudiante de la carrera Ingeniería de Sistemas Informáticos en la Universidad de El Salvador FMOcc, usuario de GNU/Linux y miembro de la Comunidad de usuarios de Software y Hardware Libre UESOcc y tambien de Mozilla El Salvador">
     <meta name="author" content="Andres Godinez">
 
     <!--facebook -->
@@ -25,9 +25,10 @@
 
   <!-- Site Properities -->
   <title>Andr&eacute;s God&iacute;nez</title>
-<link rel="shortcut icon" href="public/images/favicon.png">
+  <link rel="shortcut icon" href="public/images/favicon.png">
   <link rel="stylesheet" type="text/css" href="public/css/semantic.css">
   <link rel="stylesheet" type="text/css" href="public/css/main.css">
+  
 </head>
 
 <body id="home">
@@ -48,13 +49,13 @@
           <a href="#projects" class="item">Proyectos</a>
       </div>
       </div>
-    
-  <div class="ui inverted page grid stackable segment">
+  
+  <div id="jparallax" class="ui inverted page grid stackable segment">
     <div class="row">
-      <div class="column">
-        <h2 class="center aligned ui header">
-          <br/>- Sitio en construcci&oacute;n -
-        </h2>
+      <div id="target" class="parallax-port">
+      <img class="parallax-layer" src="public/images/ag.png" alt="" width="15%" />
+      <img class="parallax-layer" src="public/images/ag.png" alt="" width="15%" />
+      <img class="parallax-layer" src="public/images/ag.png" alt="" width="15%" />
       </div>
     </div>
   </div>
@@ -65,7 +66,7 @@
     </div>
   </div>      
 
-  <div id="about" class="ui inverted page grid stackable segment">
+  <div id="about" class="ui inverted page grid stackable segment">    
     <div class="row">
       <div class="column">
         <h1 class="center aligned ui header">
@@ -94,7 +95,7 @@
     <div class="ui horizontal icon divider">
       <i class="circular star icon"></i>
     </div>
-  </div>    
+  </div> 
 
   <div id="habilidades"></div>
   <div class="ui inverted page grid stackable segment">
@@ -236,10 +237,10 @@
     <div class="row">
       <div class="four wide column">
         <h2 class="center aligned ui header">ConverTemp</h2>
-        <a href="https://marketplace.firefox.com/app/convertemp/"><img class="ui image img-responsive" src="https://raw.githubusercontent.com/AGodinez/ConverTemp/master/images/icon.png" style="margin: auto"/></a>
+        <a href="https://marketplace.firefox.com/app/convertemp/" target="_blank"><img class="ui image img-responsive" src="https://raw.githubusercontent.com/AGodinez/ConverTemp/master/images/icon.png" style="margin: auto"/></a>
         <p align="center">
           Conversor de unidades de Temperatura para dispositivos con Firefox OS. <br/>
-          <a href="https://github.com/AGodinez/ConverTemp">Source on GitHub</a>
+          <a href="https://github.com/AGodinez/ConverTemp" target="_blank">Source on GitHub</a>
         </p>
       </div>
     </div>
@@ -251,6 +252,7 @@
     </div>
   </div>
   
+  <!-- footer -->
 
   <div class="ui inverted page grid segment">
     <div id="contacto" class="row">
@@ -279,8 +281,9 @@
   
 
   <!-- Scripts js -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="public/js/jquery.js"></script>  
   <script src="public/js/semantic.js"></script>
   <script src="public/js/main.js"></script>
+  <script src="public/js/jquery.parallax.min.js"></script>
 </body>
 </html>
