@@ -299,6 +299,10 @@ a:hover {
   #slider-img {
     padding: 270px 0 0;
   }
-
+  
+   #firefox-affiliates {
+      display: none;
+ }
 
 }
+
