@@ -5,14 +5,14 @@
 # Site
 title: Andrés Godínez
 subtitle:
-description: 
+description:
 author: Andrés Godínez
 author_title: 'UX/UI Designer'
 avatar: css/images/avatar.png
 location: 'Santa Ana, El Salvador'
 follow: https://github.com/agodinez/
 language: es
-timezone: América/El_Salvador
+timezone: America/El_Salvador
 since: 2015 # The start year showing in your copyright section.
 
 # URL
@@ -75,7 +75,7 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
-  
+
 # Disqus
 disqus_shortname: agodinez
 
@@ -85,4 +85,4 @@ deploy:
   type: git
   repo: https://github.com/agodinez/agodinez.github.io.git
   branch: master
-  message: "Deploying to github pages"
+  message: "Actualizacion a github pages"
