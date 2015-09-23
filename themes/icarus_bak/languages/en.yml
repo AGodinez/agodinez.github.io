@@ -1,0 +1,39 @@
+index:
+  home: 'home'
+  search: 'Search'
+  archive: 'archive'
+  category: 'category'
+  uncategorized: 'uncategorized'
+  tag: 'tag'
+nav:
+  next: 'Next'
+  prev: 'Prev'
+<<<<<<< HEAD
+=======
+  older: 'Older'
+  newer: 'Newer'
+>>>>>>> 69f1b77422768444fcadbf337c91b4b00efffae2
+widget:
+  recents: 'recents'
+  archives: 'archives'
+  categories: 'categories'
+  links: 'links'
+  tags: 'tags'
+  tag_cloud: 'tag cloud'
+article:
+  comments: 'Comments'
+  share: 'Share'
+<<<<<<< HEAD
+=======
+  catalogue: 'Catalogue'
+>>>>>>> 69f1b77422768444fcadbf337c91b4b00efffae2
+profile:
+  follow: 'FOLLOW'
+  post: 'post'
+  tag: 'tag'
+  posts: 'posts'
+<<<<<<< HEAD
+  tags: 'tags'
+=======
+  tags: 'tags'
+>>>>>>> 69f1b77422768444fcadbf337c91b4b00efffae2
