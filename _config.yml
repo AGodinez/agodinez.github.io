@@ -4,22 +4,17 @@
 
 # Site
 title: Andrés Godínez
-#subtitle:
-#description:
-author: Andrés Godínez
-author_title: 'UX/UI Designer'
-avatar: css/images/avatar.png
-location: 'Santa Ana, El Salvador'
-follow: https://github.com/agodinez/
+subtitle: UX/UI Designer
+logo: /css/images/logo_blank.png
 language: es
 timezone: America/El_Salvador
-since: 2015 # The start year showing in your copyright section.
+since: 2016 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://andresgodinez.me
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/ #:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -57,7 +52,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: LL
 time_format: HH:mm:ss
 
 # Pagination
@@ -68,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: icarus
+theme: casperify
 
 # Feed
 feed:

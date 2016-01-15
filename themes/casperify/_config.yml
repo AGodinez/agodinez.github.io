@@ -1,0 +1,41 @@
+# general cover
+cover: http://localhost/~agodin3z/agodinezNew/public/images/background.jpg
+
+# authors
+authors:
+  agodin3z:
+    name: Andrés Godínez
+    username: agodin3z
+    avatar: /css/images/avatar.png
+    bio: 'UX/UI Designer, amante de la programación, el diseño y todo lo que tenga que ver con las tecnologías libres. No dudes en ponerte en contacto conmigo si piensas realizar un proyecto opensource y necesitas a alguien ;) <br>Además formo parte de: <br> <a href="http://mozillasv.github.io/">Mozilla El Salvador</a> - <a href="https://github.com/IonicSV">Ionic El Salvador</a> - <a href="http://nodebots-sv.github.io/">NodeBots El Salvador</a>'
+    location: Santa Ana, El Salvador
+    website: http://andresgodinez.me
+    cover: http://localhost/~agodin3z/agodinezNew/public/images/background.jpg
+    social: # Add social network profile links
+#      facebook:
+      twitter: https://twitter.com/AGodinez_
+      google-plus: https://plus.google.com/+AndrewsGodinez
+      github: https://github.com/AGodinez
+      instagram: https://instagram.com/agodin3z
+#      flirck:
+      linkedin: https://linkedin.com/in/agodin3z
+      steam: https://steamcommunity.com/id/meth4nol
+#      tumblr:
+#      pinterest:
+
+#opengraph
+twitter_profile: AGodinez_
+googleplus_profile: +AndrewsGodinez
+fb_admins:
+fb_app_id:
+
+lightbox: true
+fitvids: true
+
+excerpt_link: Read More
+
+#SEO
+google_analytics:
+
+# Miscellaneous
+rss: /atom.xml

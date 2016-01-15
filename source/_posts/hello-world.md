@@ -1,5 +1,6 @@
 title: Hello World
-thumbnail: css/images/logo.png
+date: 2015-08-22 13:30:19
+author: agodin3z
 ---
 
 Hola, bienvenid@ a mi website :)
