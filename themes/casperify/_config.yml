@@ -1,5 +1,5 @@
 # general cover
-cover: /css/images/background.jpg
+cover: /css/images/background.jpeg
 
 # authors
 authors:
@@ -7,10 +7,11 @@ authors:
     name: Andrés Godínez
     username: agodin3z
     avatar: /css/images/avatar.png
-    bio: 'UX/UI Designer, amante de la programación, el diseño y todo lo que tenga que ver con las tecnologías libres. No dudes en ponerte en contacto conmigo si piensas realizar un proyecto opensource y necesitas a alguien ;) <br>Además formo parte de: <br> <a href="http://mozillasv.github.io/">Mozilla El Salvador</a> - <a href="https://github.com/IonicSV">Ionic El Salvador</a> - <a href="http://nodebots-sv.github.io/">NodeBots El Salvador</a>'
+    shortbio: 'UX/UI Designer, amante de la programación, el diseño y todo lo que tenga que ver con las tecnologías libres.'
+    longbio: 'UX/UI Designer, amante de la programación, el diseño y todo lo que tenga que ver con las tecnologías libres. No dudes en ponerte en contacto conmigo si piensas realizar un proyecto opensource y necesitas a alguien ;) <br><br>Además formo parte de: <br> <a href="http://mozillasv.github.io/">Mozilla El Salvador</a> - <a href="https://github.com/IonicSV">Ionic El Salvador</a> - <a href="http://nodebots-sv.github.io/">NodeBots El Salvador</a>'
     location: Santa Ana, El Salvador
     website: http://andresgodinez.me
-    cover: /css/images/background.jpg
+    cover: /css/images/background.jpeg
     social: # Add social network profile links
 #      facebook:
       twitter: https://twitter.com/AGodinez_
@@ -26,16 +27,16 @@ authors:
 #opengraph
 twitter_profile: AGodinez_
 googleplus_profile: +AndrewsGodinez
-fb_admins:
-fb_app_id:
+#fb_admins:
+#fb_app_id:
 
 lightbox: true
 fitvids: true
 
-excerpt_link: Read More
+excerpt_link: Seguir leyendo
 
 #SEO
-google_analytics:
+google_analytics: UA-57583251-4
 
 # Miscellaneous
 rss: /atom.xml

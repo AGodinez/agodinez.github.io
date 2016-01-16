@@ -8,7 +8,7 @@
 </figure>
 <section class="author">
     <h4><%- a[b].name || post.author_name %></h4>
-    <p><%- a[b].bio || post.bio %></p>
+    <p><%- a[b].shortbio || post.shortbio %></p>
     <% if (a[b].location || a[b].website || post.location || post.website) {%>
       <div class="author-meta">
         <% if (a[b].location || post.location) {%> <span class="author-location icon-location"><%- a[b].location || post.location %></span><% } %>
