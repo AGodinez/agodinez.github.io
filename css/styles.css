@@ -46,13 +46,14 @@ main {
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
-	font-weight: 600;
+  font-weight: 600;
+  animation: 2s explode_title;
 }
 
 main > .tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
-	font-weight: 100;
+  font-weight: 100;
 }
 
 .icons-social i {
@@ -74,6 +75,12 @@ main > .tagline {
 .icons-social a:focus {
   outline: none;
 }
+
+.icons-social a:hover i,
+.icons-social a:focus i {
+  animation: breathing 1s ease-out infinite normal;
+}
+
 .icons-social a.github:hover,
 .icons-social a.github:focus {
   color: #333;
@@ -97,4 +104,56 @@ main > .tagline {
 .icons-social a.steam:hover,
 .icons-social a.steam:focus {
   color: #000;
+}
+
+.icons-social a.instagram:hover,
+.icons-social a.instagram:focus {
+  color: #c13584;
+}
+@keyframes explode_title {
+  10% {
+    transform:scaleY(0.2);
+    transform-origin:0 bottom 0;
+  }
+  20% {
+    transform:scaleY(1.3);
+    transform-origin:0 bottom 0;
+  }
+  30% {
+    transform:scaleY(0.7);
+    transform-origin:0 bottom 0;
+  }
+  40% {
+    transform:scaleY(1);
+    transform-origin:0 bottom 0;
+  }
+  100% {
+    transform:scaleY(1);
+    transform-origin:0 bottom 0;
+  }
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
